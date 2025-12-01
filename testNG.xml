@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SampleSuite" verbose="1" parallel="false">
+    <test name="SampleTest">
+        <classes>
+            <class name="TestMethods.TitileUrlTest"/>
+        </classes>
+    </test>
+    
+</suite>

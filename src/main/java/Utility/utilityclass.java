@@ -21,6 +21,8 @@ public class utilityclass {
 		WebDriver dr = new EdgeDriver();
 
 		dr.get(url);
+		
+		dr.manage().window().maximize();
 
 		return dr;
 

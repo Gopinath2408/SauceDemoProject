@@ -11,14 +11,14 @@ public class TitleUrl {
 
     private final WebDriver dr;
 
-    @FindBy(id = "user-name")
-    private WebElement user;
-
-    @FindBy(id = "password")
-    private WebElement pass;
-
-    @FindBy(id = "login-button")
-    private WebElement btn;
+//    @FindBy(id = "user-name")
+//    private WebElement user;
+//
+//    @FindBy(id = "password")
+//    private WebElement pass;
+//
+//    @FindBy(id = "login-button")
+//    private WebElement btn;
 
     @FindBy(xpath = "//select[@class='product_sort_container']")
     private WebElement sortDropdown;
@@ -66,18 +66,7 @@ public class TitleUrl {
         return dr.getCurrentUrl();
     }
 
-    public void userName(String sname) {
-        user.sendKeys(sname);
-    }
-
-    public void userPass(String sname) {
-        pass.sendKeys(sname);
-    }
-
-    public void userLogin() {
-        btn.click();
-    }
-
+   
     public void selectSortOptionByIndex() {
         new Select(sortDropdown).selectByIndex(1);
     }

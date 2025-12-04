@@ -43,8 +43,12 @@
 <version>5.2.3</version> <!-- Use the latest version -->
 </dependency>
 
-
-
+<!-- Core ExtentReports (use a compatible 5.x version) -->
+<dependency>
+  <groupId>com.aventstack</groupId>
+  <artifactId>extentreports</artifactId>
+  <version>5.1.2</version>
+</dependency>
 
   	<dependency>
   		<groupId>org.practice</groupId>

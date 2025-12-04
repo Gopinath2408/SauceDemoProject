@@ -5,8 +5,9 @@
     <classes>
       <class name="TestMethods.TitileUrlTest">
         <methods>
-          <include name="test001"/>
           <include name="launch"/>
+          <include name="test001"/>
+          <include name="close"/>
         </methods>
       </class> <!-- TestMethods.TitileUrlTest -->
     </classes>

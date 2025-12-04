@@ -1,1 +1,3 @@
-SauceDemo\Project\AppTest.class
+TestMethods\ExtractUrlTest.class
+TestMethods\TitileUrlTest.class
+TestMethods\hooks.class
